@@ -26,8 +26,8 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_4A7F5480","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_73561BB1","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4A7F5480","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
