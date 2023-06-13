@@ -15,5 +15,8 @@ instance_create_layer(room_width + 32, _montanha_baixo_y, "Instances", obj_monta
 
 //Reativando o alarme (Loop)
 //Reiniciando o alarme entre 1 e 3 segundos (Loop) para distribuir as montanhas
-var _tempo = random_range(1, 3)
+//Ajuste do intervalo
+var _tempo_minimo = 1 /(1 + (global.level * 0.1));
+
+var _tempo = random_range(_tempo_minimo, 2)
 alarm[0] = game_get_speed(gamespeed_fps) * _tempo; //Equivalente ao room_speed

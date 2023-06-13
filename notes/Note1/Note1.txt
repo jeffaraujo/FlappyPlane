@@ -6,6 +6,9 @@
 	1.5 - Simulando a gravidade contínua - FEITO
 	1.6 - Limitando a velocidade de queda do avião - FEITO
 	1.7 - Ajustando a máscara de colisão - FEITO
+	1.8 - Criar uma fumaça sempre que ele subir - FEITO
+	1.9 - Fazendo a fumaça crescer e desaparecer - FEITO
+	1.10 - Reiniciar o jogo ao sair da tela - FEITO
 	
 2- Obstáculos
 	2.1 - Criar as sprites das montanhas - FEITO
@@ -13,22 +16,41 @@
 	2.3 - Ajustar o espaço entre as montanhas - FEITO
 	2.4 - Movendo as montanhas para a esquerda - FEITO
 	2.5 - Ajuste da máscara de colisão - FEITO
+	2.5 - Aumentando a velocidade dependendo do level - FEITO
 	
 3 - Geração procedural dos obstáculos
 	3.1 - Criando um evento que repete - FEITO
 	3.2 - Criando as montanhas - FEITO
 	3.3 - Alterando a frequencia de criação das montanhas - FEITO
 	3.4 - Alterando a posição das montanhas - FEITO
+	3.5 - Ajustar o intervalo de criação das montanhas do jogo - FEITO
 	
 4 - Background
-	4.1 - Criando a sprite do background
+	4.1 - Criando a sprite do background - FEITO
 	4.2 - Colocando movimento no background (Marcando Horizontal Tile e X = -1 no Speed na camada de Background) - FEITO
+	4.3 - Ajustar a velocidade do background com relação ao level - FEITO
+	4.4 - Criar o chão - FEITO
+	
 	
 5 - Sistema de pontos
 	5.1 - Iniciando o sistema de pontos - FEITO
 	5.2 - Ganhando pontos - FEITO
-	5.3 - Exibindo os pontos
+	5.3 - Exibindo os pontos - FEITO
+	5.4 - Multiplicar os pontos ganho pelo level atual - Feito
 	
 6 - Sistema de level
-	6.1 - Iniciando o sistema de level
-	6.2 - Ganhando level
+	6.1 - Iniciando o sistema de level - FEITO
+	6.2 - Ganhando level - FEITO
+	6.3 - Exibindo o level - FEITO
+	
+7 - Sons do Jogo
+	7.1 - Importando os sons - FEITO
+	7.2 - Tocando a musica - FEITO
+	7.3 - Tocando o som de level up ao ganhar o level - FEITO
+	
+8 - Tela inicial do jogo
+	8.1 - Criando a room - FEITO
+	8.2 - Criando a sprite de apresentação - FEITO
+	8.3 - Criando a animação da sprite - FEITO
+	8.4 - Iniciando o jogo ao apertar espaço - FEITO
+	

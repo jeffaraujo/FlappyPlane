@@ -8,3 +8,9 @@ vspeed  = vspeed + 0.2;
 
 //Limitando a velocidade de queda para que o avião não caia rápido
 if(vspeed > 4) vspeed = 4;
+
+//Se o avião cair fora da tela reinicia o jogo
+if(y > 520 or y < -64)
+{
+	game_restart();
+}

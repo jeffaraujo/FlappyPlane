@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_montanha_alto",
+  "name": "obj_fumaca",
   "spriteId": {
-    "name": "spr_montanha_alto",
-    "path": "sprites/spr_montanha_alto/spr_montanha_alto.yy",
+    "name": "spr_fumaca",
+    "path": "sprites/spr_fumaca/spr_fumaca.yy",
   },
   "solid": false,
   "visible": true,
