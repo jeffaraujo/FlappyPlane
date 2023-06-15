@@ -13,4 +13,21 @@ global.level = 1;
 proximo_level = 100;
 global.velocidade_montanha = -3; //Definindo a velocidade horizontal da montanha
 //Exibindo o level
-instance_create_layer(room_width / 2, 30, "Instances" ,obj_level)
+instance_create_layer(room_width / 2, 30, "Instances" ,obj_level);
+
+
+//-----------Para fins de debug----------------------
+/*
+//Buscando o desafio
+var _desafio_atual = gxc_get_query_param("challenge")
+
+//Checando o desfio atual com o desafio que foi buscado (Comparando os Guids)
+if(_desafio_atual == global.desafio_maior_pontuacao)
+{
+	show_message("É o desafio esperado!");	
+}
+else
+{
+	show_message("Não deu!");	
+}
+*/

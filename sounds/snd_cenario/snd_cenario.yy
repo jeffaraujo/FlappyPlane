@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "snd_cenario",
   "conversionMode": 0,
-  "compression": 0,
+  "compression": 3,
   "volume": 0.45,
   "preload": false,
   "bitRate": 128,
